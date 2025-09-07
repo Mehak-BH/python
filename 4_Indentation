@@ -21,4 +21,4 @@ for i in range(5):
 my_function()
 my_other_function()
 
-print("this program is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
+print("this program is written and excecuted by Mehak Bhutani with ERP 0231BCA063")
