@@ -15,3 +15,5 @@ else:
         print(f"{num} is a Prime Number")
     else:
         print(f"{num} is NOT a Prime Number")
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
