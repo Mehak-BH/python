@@ -1,0 +1,12 @@
+# Taking input from the user
+name = input("Enter your name: ")
+student_class = input("Enter your class: ")
+roll_no = int(input("Enter your roll number: "))
+age = int(input("Enter your age: "))
+
+# Printing using formatted print method (f-string)
+print(f"\nStudent Details:")
+print(f"Name       : {name}")
+print(f"Class      : {student_class}")
+print(f"Roll No    : {roll_no}")
+print(f"Age        : {age}")
