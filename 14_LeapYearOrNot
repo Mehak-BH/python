@@ -11,5 +11,6 @@ if is_leap_year(year):
 else:
     print(f"{year} is not a leap year")
 
-print("This code is written and excecuted by Mehak Bhutani with ERP 0231BCA063")
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
+
 
