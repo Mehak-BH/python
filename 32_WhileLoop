@@ -1,0 +1,9 @@
+# Program to demonstrate while loop in Python
+
+count = 1   # initialization
+
+while count <= 5:   # condition
+    print("This is loop iteration number:", count)
+    count += 1      # update step
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
