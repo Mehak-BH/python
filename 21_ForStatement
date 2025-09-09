@@ -14,5 +14,6 @@ for i in range(3):
 else:
     print("loop finished")
 
-print("this program is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
+print("this code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
+
 
