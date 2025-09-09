@@ -1,0 +1,8 @@
+# Program to print the last digit of a given integer number
+
+num = int(input("Enter an integer number: "))
+
+last_digit = abs(num) % 10   # abs() used to handle negative numbers
+print("The last digit is:", last_digit)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
