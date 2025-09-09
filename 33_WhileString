@@ -1,0 +1,10 @@
+# Program to demonstrate while loop with a string
+
+text = "Python"
+index = 0
+
+while index < len(text):   # loop until end of string
+    print("Character at index", index, "is:", text[index])
+    index += 1
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
