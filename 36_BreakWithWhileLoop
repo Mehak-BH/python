@@ -4,4 +4,5 @@ while count<10:
         break #exit the loop when count is 5
     print(count) #print count less than 5
     count+=1
-print("this program is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
+
