@@ -1,0 +1,20 @@
+# Python program to demonstrate try, except, else, and finally
+
+def divide_numbers(a, b):
+    try:
+        result = a / b   # risky operation
+    except ZeroDivisionError:
+        print("Error: Division by zero is not allowed!")
+    except TypeError:
+        print("Error: Please provide numbers only!")
+    else:
+        print(f"Division successful! Result = {result}")
+    finally:
+        print("Execution completed (finally block always runs).")
+
+# Test cases
+divide_numbers(10, 2)   # No error, else block will run
+print()
+divide_numbers(10, 0)   # ZeroDivisionError handled
+print()
+divide_numbers(10, "a") # TypeError handled
