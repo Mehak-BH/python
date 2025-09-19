@@ -1,0 +1,9 @@
+# Function definition with default parameter
+def greet(name="Guest"):
+    print("Hello,", name, "welcome to Python!")
+
+# Function calls
+greet("Mehak")   # passing argument
+greet()          # no argument, uses default value
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
