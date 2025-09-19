@@ -1,0 +1,14 @@
+# Function definition
+def add_numbers(a, b):
+    result = a + b
+    return result   # returning the result
+
+# Function call
+sum1 = add_numbers(10, 5)
+sum2 = add_numbers(7, 3)
+
+# Printing returned values
+print("Sum of 10 and 5 is:", sum1)
+print("Sum of 7 and 3 is:", sum2)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
