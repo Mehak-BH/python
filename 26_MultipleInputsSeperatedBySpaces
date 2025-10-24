@@ -1,3 +1,15 @@
-for i in range(1,8):
-    print(' '*(7-i)+'*'*i)
+# Taking multiple integer inputs separated by spaces
+a, b, c = map(int, input("Enter three integers separated by spaces: ").split())
+print("You entered:", a, b, c)
+
+# Taking variable number of integer inputs separated by spaces
+print("\nEnter any number of integers separated by spaces:")
+for num in input().split():
+    print("Number:", int(num))
+
+# Taking multiple string inputs separated by spaces
+x, y, z = input("\nEnter three words separated by spaces: ").split()
+print("You entered:", x, y, z)
+
 print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
+
