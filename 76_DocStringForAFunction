@@ -1,0 +1,24 @@
+def add_numbers(a, b):
+    """
+    This function takes two numbers as input and returns their sum.
+
+    Parameters:
+    a (int or float): The first number
+    b (int or float): The second number
+
+    Returns:
+    int or float: The sum of a and b
+    """
+    return a + b
+
+# Function call
+result = add_numbers(5, 3)
+
+# Display result
+print("Sum =", result)
+
+# Display function docstring
+print("\nFunction Docstring:")
+print(add_numbers.__doc__)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
