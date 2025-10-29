@@ -1,0 +1,14 @@
+count = 0
+
+def outer_function():
+    def inner_function():
+        global count   # declaring global variable inside nested function
+        count += 1
+        print("Inside inner_function, count =", count)
+
+    inner_function()
+    print("Inside outer_function, count =", count)
+
+# Function call
+outer_function()
+print("Outside all functions, count =", count)
