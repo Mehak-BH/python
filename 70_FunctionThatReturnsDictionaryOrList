@@ -1,0 +1,21 @@
+def get_data(n):
+    # Create a list of squares
+    squares = [i * i for i in range(1, n + 1)]
+
+    # Create a dictionary of number: square pairs
+    square_dict = {i: i * i for i in range(1, n + 1)}
+
+    # Return both
+    return squares, square_dict
+
+# Function call
+num = int(input("Enter a number: "))
+
+# Unpack the returned list and dictionary
+list_result, dict_result = get_data(num)
+
+# Display the results
+print("List of squares:", list_result)
+print("Dictionary of squares:", dict_result)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
