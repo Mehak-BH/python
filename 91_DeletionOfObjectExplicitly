@@ -1,0 +1,12 @@
+class Student:
+    def __init__(self, name):
+        self.name = name
+        print(name, "created")
+
+    def __del__(self):
+        print(self.name, "deleted")
+
+s = Student("Mehak")
+del s
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
