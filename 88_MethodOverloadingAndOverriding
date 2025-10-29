@@ -1,0 +1,21 @@
+# Method Overloading (using default arguments)
+class MathOps:
+    def add(self, a=0, b=0, c=0):
+        return a + b + c
+
+# Method Overriding
+class Parent:
+    def show(self):
+        print("This is Parent class")
+
+class Child(Parent):
+    def show(self):
+        print("This is Child class")
+
+# Testing
+m = MathOps()
+print("Overloading:", m.add(5, 10))
+p = Child()
+p.show()
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
