@@ -1,0 +1,20 @@
+# Function to return multiple values
+def calculate(a, b):
+    sum_result = a + b
+    difference = a - b
+    product = a * b
+    return sum_result, difference, product  # multiple returns
+
+# Function call
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+# Receiving multiple values from function
+s, d, p = calculate(x, y)
+
+# Displaying results
+print("Sum =", s)
+print("Difference =", d)
+print("Product =", p)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
