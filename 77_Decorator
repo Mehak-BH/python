@@ -1,0 +1,17 @@
+# Define a decorator
+def greet_decorator(func):
+    def wrapper():
+        print("Hello! Welcome to Python Programming.")
+        func()
+        print("Goodbye! Have a nice day.")
+    return wrapper
+
+# Use the decorator
+@greet_decorator
+def display_message():
+    print("This is a decorated function.")
+
+# Call the decorated function
+display_message()
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
