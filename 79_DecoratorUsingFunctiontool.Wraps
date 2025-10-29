@@ -1,0 +1,21 @@
+from functools import wraps
+
+def decorator(func):
+    @wraps(func)
+    def wrapper():
+        print("Before function call")
+        func()
+        print("After function call")
+    return wrapper
+
+@decorator
+def greet():
+    """This function greets the user."""
+    print("Hello, Mehak!")
+
+greet()
+
+print("\nFunction name:", greet.__name__)
+print("Docstring:", greet.__doc__)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
