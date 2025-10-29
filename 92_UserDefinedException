@@ -1,0 +1,13 @@
+class InvalidAgeError(Exception):
+    pass
+
+age = int(input("Enter your age: "))
+try:
+    if age < 18:
+        raise InvalidAgeError("You must be 18 or older!")
+    else:
+        print("Access granted.")
+except InvalidAgeError as e:
+    print("Error:", e)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
