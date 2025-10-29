@@ -1,0 +1,60 @@
+# Demonstration of various Python Standard Library Modules
+
+import math
+import datetime
+import random
+import os
+import sys
+import string
+import time
+import statistics
+import json
+
+# 1. math module
+print("=== math Module ===")
+print("Square root of 16:", math.sqrt(16))
+print("Factorial of 5:", math.factorial(5))
+print("Value of pi:", math.pi)
+
+# 2. datetime module
+print("\n=== datetime Module ===")
+print("Today's Date:", datetime.date.today())
+print("Current Date & Time:", datetime.datetime.now())
+
+# 3. random module
+print("\n=== random Module ===")
+print("Random number (1–10):", random.randint(1, 10))
+print("Random choice:", random.choice(['Apple', 'Banana', 'Cherry']))
+
+# 4. os module
+print("\n=== os Module ===")
+print("Current Working Directory:", os.getcwd())
+
+# 5. sys module
+print("\n=== sys Module ===")
+print("Python Version:", sys.version.split()[0])
+
+# 6. string module
+print("\n=== string Module ===")
+print("Lowercase letters:", string.ascii_lowercase)
+print("Digits:", string.digits)
+
+# 7. time module
+print("\n=== time Module ===")
+print("Current time:", time.ctime())
+time.sleep(1)
+print("After 1 second:", time.ctime())
+
+# 8. statistics module
+print("\n=== statistics Module ===")
+data = [10, 20, 30, 40, 50]
+print("Mean:", statistics.mean(data))
+print("Median:", statistics.median(data))
+
+# 9. json module
+print("\n=== json Module ===")
+person = {"name": "Mehak", "age": 19}
+json_data = json.dumps(person)
+print("JSON format:", json_data)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
