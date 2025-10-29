@@ -1,0 +1,28 @@
+import numpy as np
+
+# Define two 3x3 matrices
+A = np.array([[1, 2, 3],
+              [4, 5, 6],
+              [7, 8, 9]])
+
+B = np.array([[9, 8, 7],
+              [6, 5, 4],
+              [3, 2, 1]])
+
+# Matrix operations
+add_result = A + B
+sub_result = A - B
+mul_result = A @ B        # Matrix multiplication
+transpose_A = A.T
+transpose_B = B.T
+
+# Display results
+print("Matrix A:\n", A)
+print("\nMatrix B:\n", B)
+print("\nAddition:\n", add_result)
+print("\nSubtraction:\n", sub_result)
+print("\nMultiplication:\n", mul_result)
+print("\nTranspose of A:\n", transpose_A)
+print("\nTranspose of B:\n", transpose_B)
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
