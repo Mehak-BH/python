@@ -1,0 +1,12 @@
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+
+d = Dog()
+d.speak()
+
+print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
